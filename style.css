@@ -1,0 +1,35 @@
+html {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+.btn--top {
+  background-color: lightgrey;
+}
+.btn--nums {
+  background-color: rgb(44, 44, 44);
+  color: white;
+}
+
+.btn--dec {
+  background-color: rgb(44, 44, 44);
+  color: white;
+}
+.btn--right {
+  background-color: orange;
+  color: white;
+}
+.dis--0 {
+  font-size: 25px;
+}
+.display--0 {
+  width: 89%;
+}
+.button-top {
+  background-color: ghostwhite;
+}
+.button-right {
+  background-color: rgb(255, 177, 60);
+}
+.button-num {
+  background-color: grey;
+}

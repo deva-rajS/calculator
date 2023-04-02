@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+    </style>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <div
+      class="flex h-screen items-center justify-center bg-gradient-to-r from-gray-600 to-slate-900 w-screen relative"
+    >
+      <div
+        style="height: 90%"
+        class="back flex flex-wrap rounded-md bg-black w-96 absolute relative shadow-md"
+      >
+        <div class="display--0 flex flex-wrap text-white absolute bottom-96">
+          <span class="absolute dis--0 right-0 bottom-4">0</span>
+        </div>
+        <div
+          class="flex flex-wrap grid-cols-4 grid gap-4 bottom-10 absolute inset-x-6 right-0"
+        >
+          <button class="rounded-full h-14 w-14 btn--top btn--ac">AC</button>
+          <button class="rounded-full h-14 w-14 btn--top btn--minus">
+            +/-
+          </button>
+          <button class="rounded-full h-14 w-14 btn--top btn-top btn--percent">
+            %
+          </button>
+          <button class="rounded-full h-14 w-14 btn--right btn--op">÷</button>
+          <button class="rounded-full h-14 w-14 btn--nums">7</button>
+          <button class="rounded-full h-14 w-14 btn--nums">8</button>
+          <button class="rounded-full h-14 w-14 btn--nums">9</button>
+          <button class="rounded-full h-14 w-14 btn--right btn--op">x</button>
+          <button class="rounded-full h-14 w-14 btn--nums">4</button>
+          <button class="rounded-full h-14 w-14 btn--nums">5</button>
+          <button class="rounded-full h-14 w-14 btn--nums">6</button>
+          <button class="rounded-full h-14 w-14 btn--right btn--op">-</button>
+          <button class="rounded-full h-14 w-14 btn--nums">1</button>
+          <button class="rounded-full h-14 w-14 btn--nums">2</button>
+          <button class="rounded-full h-14 w-14 btn--nums">3</button>
+          <button class="rounded-full h-14 w-14 btn--right btn--op">+</button>
+          <button class="rounded-full h-14 col-span-2 w-36 text-center">
+            <p class="rounded-full btn--nums h-14 pt-4 pr-20">0</p>
+          </button>
+          <button class="rounded-full h-14 w-14 btn--dec">.</button>
+          <button class="rounded-full h-14 w-14 btn--right btn--equal">
+            =
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
